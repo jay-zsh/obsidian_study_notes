@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -223,11 +223,11 @@
       "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "ea9903a8e070530c",
+  "active": "1c9e6e00f57b75d3",
   "lastOpenFiles": [
-    "常用工具使用指南/git的使用.md",
-    "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.5.md",
     "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.4 对象方法.md",
+    "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.5.md",
+    "tools/git的使用.md",
     "CS61B/Spring21_HW/Lab/lab04.md",
     "CS61B/Spring21_HW/Lab/lab03.md",
     "CS61B/Spring21_HW/Lab/lab02.md",
