@@ -157,7 +157,7 @@ git add <file>
 git commit -m"<message>"
 
 # 关联githup
-git remote add origin git@github.com:jay-zsh/obsidian_study_notes.git
+git remote add origin <ssh>
 
 # 查看当前关联的远程仓库地址
 git remote -v
