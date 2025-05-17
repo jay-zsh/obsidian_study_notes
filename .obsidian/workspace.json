@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.5.md",
+                "file": "tools/git的使用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12.5"
+              "title": "git的使用"
             }
           }
         ]
@@ -223,10 +223,10 @@
       "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "1c9e6e00f57b75d3",
+  "active": "ea9903a8e070530c",
   "lastOpenFiles": [
-    "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.4 对象方法.md",
     "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.5.md",
+    "CS61B/lecture_txt/12.继承IV迭代器，对象方法/12.4 对象方法.md",
     "tools/git的使用.md",
     "CS61B/Spring21_HW/Lab/lab04.md",
     "CS61B/Spring21_HW/Lab/lab03.md",
