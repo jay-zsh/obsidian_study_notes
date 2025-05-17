@@ -87,6 +87,7 @@ git push origin master
 ```shell
 git log
 ```
+
 ![[Pasted image 20250515153216.png]]
 - 当前有两个版本 最后的版本`version2`为`master`.
 
