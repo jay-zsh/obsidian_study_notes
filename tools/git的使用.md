@@ -21,11 +21,13 @@ git remote add origin <ssh>
 git remote -v
 
 # 强制指定分支
-git branch -M master #似乎默认就是master
+git branch -M main #似乎默认本地是master，githup是main
 
 # 推送
-git push -u origin master
+git push origin main
 
+# 拉取
+git pull origin main
 
 ```
 
