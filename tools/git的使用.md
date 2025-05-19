@@ -1,3 +1,52 @@
+## 常用命令行简介
+- 先在githup网页创建一个仓库，切换到ssh
+- 本地终端导航到要初始化为仓库的文件的根目录
+```bash
+# 本地初始化仓库
+git init
+
+# add
+git add <file>
+
+# commit
+git commit -m"<message>"
+
+# 关联githup
+git remote add origin <ssh>
+
+# 查看当前关联的远程仓库地址
+git remote -v
+
+# 强制指定分支
+git branch -M master #似乎默认就是master
+
+# 推送
+git push -u origin master
+
+
+```
+
+## 命令行详细使用指南
+### ssh密钥创建
+- 本地终端生成SSH
+```bash
+#生成 SSH 密钥
+ssh-keygen -t ed25519 -C "p204654297@outlook.com"
+
+#查看 保存到本地的 SSH密钥
+cat ~/.ssh/id_ed25519.pub
+
+#验证 GitHub ssh连接状态
+ssh -T git@github.com
+
+```
+
+- GitHub 网页 New SSH key
+	- seeting-> SSH and GPG key -> New SSH key
+		- title 随便
+		- key type 保持不变
+		- 粘贴保存到本地的 SSH密钥到 key
+
 
 ### git status
 导航到目标文件所在`上级目录`
@@ -122,52 +171,4 @@ git commit -m "恢复至def5678版本"
 ```
 
 
-
-## ssh密钥创建
-- 本地终端生成SSH
-```bash
-#生成 SSH 密钥
-ssh-keygen -t ed25519 -C "p204654297@outlook.com"
-
-#查看 保存到本地的 SSH密钥
-cat ~/.ssh/id_ed25519.pub
-
-#验证 GitHub ssh连接状态
-ssh -T git@github.com
-
-```
-
-- GitHub 网页 New SSH key
-	- seeting-> SSH and GPG key -> New SSH key
-		- title 随便
-		- key type 保持不变
-		- 粘贴保存到本地的 SSH密钥到 key
-
-## 终端本地初始化仓库和关联远程仓库
-- 先在githup网页创建一个仓库，切换到ssh
-- 本地终端导航到要初始化为仓库的文件的根目录
-```bash
-# 本地初始化仓库
-git init
-
-# add
-git add <file>
-
-# commit
-git commit -m"<message>"
-
-# 关联githup
-git remote add origin <ssh>
-
-# 查看当前关联的远程仓库地址
-git remote -v
-
-# 强制指定分支
-git branch -M master #似乎默认就是master
-
-# 推送
-git push -u origin master
-
-
-```
 
