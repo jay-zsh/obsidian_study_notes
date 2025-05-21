@@ -89,7 +89,7 @@ public void expand(int newCapacity) { ... }
 ```java
 public class CS61B {
     // 变量声明 (a部分 )
-    // --- 在此处声明 university、semester、students ---
+    // --- 在此处声明 university、semester、students cappacity---
 
     // 构造函数 (b部分)
     public CS61B(int capacity, CS61BStudent[] signups, String semester) {

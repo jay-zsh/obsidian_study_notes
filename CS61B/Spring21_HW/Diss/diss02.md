@@ -20,13 +20,13 @@ public class Pokemon {
         Pokemon p = new Pokemon("Pikachu", 17);
         Pokemon j = new Pokemon("Jolteon", 99);
         System.out.println("Party size: " + Pokemon.partySize); 
-        p.printStats(); // 输出？
+        p.printStats(); 
         int level = 18;
         Pokemon.change(p, level); 
-        p.printStats(); // 输出？
+        p.printStats(); 
         Pokemon.trainer = "Ash";
         j.trainer = "Cynthia";
-        p.printStats(); // 输出？
+        p.printStats(); 
     }
 
     public static void change(Pokemon poke, int level) {
@@ -59,26 +59,25 @@ D. 其他（解释）
 示例：  
 输入 `A = [0,1,2,3,4,5,6,7]`，`k = 12` → 输出 `[4,5,6,7,0,1,2,3]`  
 
+- 提示% 非常有用（-11%8=-3）
+
 **代码框架**  
+
 ```java
 public static int[] rotate(int[] A, int k) {
-    int rightShift = _______________________________;
-    if (_________________________) {
-        _____________________________________________;
+    int rightShift = _______________________________; 
+    if (_________________________) { 
+    _____________________________________________; 
+    } 
+    int[] newArr = ____________________________________; 
+    for (__________________________________________) { 
+        int newIndex = ________________________________;
+         _____________________________________________; } 
+    return newArr; 
     }
-    int[] newArr = new int[A.length];
-    for (int i = 0; i < A.length; i++) {
-        int newIndex = (i + rightShift) % A.length;
-        if (newIndex < 0) newIndex += A.length;
-        newArr[newIndex] = A[i];
-    }
-    return newArr;
-}
 ```
 
-**需填空部分**  
-- `rightShift` 的计算逻辑  
-- 处理负数 `k` 的条件判断  
+
 
 ---
 
@@ -116,23 +115,31 @@ public class DLLStringNode {
 
 **代码框架**  
 ```java
-public class SLList {
+public class SLList { 
     Node sentinel;
-
-    public int[][] gridify(int rows, int cols) {
-        int[][] grid = new int[rows][cols];
-        gridifyHelper(grid, sentinel.next, 0);
+    public SLList() { 
+        this.sentinel = new Node();
+    } 
+    
+    private static class Node { 
+        int item; 10 Node next; 
+    }
+    
+    public int[][] gridify(int rows, int cols) { 
+        int[][] grid = __________________________________;
+        _________________________________________________;
         return grid;
     }
-
+    
     private void gridifyHelper(int[][] grid, Node curr, int numFilled) {
-        if (curr == null || numFilled >= rows * cols) {
+        if (_________________________________________________________________________) {  
             return;
         }
-        int row = numFilled / cols;
-        int col = numFilled % cols;
-        grid[row][col] = curr.item;
-        gridifyHelper(grid, curr.next, numFilled + 1);
+        
+        int row = ________________________________________;
+        int col = ________________________________________;
+        grid[row][col] = _____________________________;
+        _________________________________________________;
     }
 }
 ```
