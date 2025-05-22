@@ -114,7 +114,7 @@ public class DLLStringNode {
 
 ---
 
-### **4. 网格填充（Gridify）**  
+### **4. 矩阵填充（Gridify）**  
 **题目**  
 实现 `SLList` 类的 `gridify` 方法，将链表元素按行优先顺序填充到 `rows×cols` 二维数组中。若元素不足，剩余位置填 0；若元素过多，忽略多余元素。  
 i![[Pasted image 20250522142806.png]]
