@@ -1,4 +1,5 @@
-# This is a study note about cs.
-@author zsh
+# This is a study note .
+
+
 @created_time 2025-5-17
 
