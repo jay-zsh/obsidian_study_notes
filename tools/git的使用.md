@@ -15,7 +15,7 @@ git add <file>
 git commit -m"<message>"
 
 # 关联githup
-git remote add origin <ssh>
+git remote add origin （仓库地址）
 
 # 查看当前关联的远程仓库地址
 git remote -v
