@@ -21,7 +21,7 @@ git remote add origin （仓库地址）
 git remote -v
 
 # 强制指定分支
-git branch -M main #似乎默认本地是master，githup是main
+git branch -M master
 
 # 推送
 git push origin main
