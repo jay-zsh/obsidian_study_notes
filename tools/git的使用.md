@@ -19,7 +19,6 @@ git remote add origin （仓库地址）
 
 # 查看当前关联的远程仓库地址
 git remote -v
-
 # 强制指定分支
 git branch -M master
 
@@ -283,12 +282,12 @@ git reset --hard origin/master
 
 ### 关键命令说明
 
-| 命令 | 作用 |
-|------|------|
-| `git pull --rebase` | 把本地提交变基到远程分支之后 |
-| `git rebase --continue` | 解决冲突后继续rebase |
-| `git mergetool` | 使用图形化工具解决冲突 |
-| `git status` | 查看当前冲突状态 |
+| 命令                      | 作用             |
+| ----------------------- | -------------- |
+| `git pull --rebase`     | 把本地提交变基到远程分支之后 |
+| `git rebase --continue` | 解决冲突后继续rebase  |
+| `git mergetool`         | 使用图形化工具解决冲突    |
+| `git status`            | 查看当前冲突状态       |
 
 ### 如何避免未来冲突
 1. 在修改代码前总是先 `git pull`
